@@ -62,3 +62,11 @@ main h1 {
   font-size: 0.7rem;
 }
 
+button{
+  background-color:#5d6f45;
+  color: #e8eaee;
+  border-radius: 8px;
+}
+button h4{
+  padding: 6px;
+}
