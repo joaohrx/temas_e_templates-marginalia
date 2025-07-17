@@ -1,0 +1,64 @@
+/* Área de pagamentos */
+
+body {
+  background-color: #f7e8cc;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+main {
+  flex: 1;
+  padding: 30px;
+}
+
+main h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-family: 'PP Mondwest';
+  color: black
+}
+
+.produto {
+  display: flex;
+  background-color: #e8eaee;
+  padding: 60px 30px; /* aumentou o topo e base */
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 30px;
+  align-items: center;
+  border-radius: 10px;
+  font-family: 'Copperplate Gothic Bold';
+}
+
+.produto img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.titulo-livro {
+  color: #0d4a2b;
+  font-size: 1.3rem;
+  font-family: 'Copperplate Gothic Bold';
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.preco {
+  background-color: #5d6f45;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.preco small {
+  font-size: 0.7rem;
+}
+
