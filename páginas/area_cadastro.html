@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
-<body>
-    
+<body class="areacad">
+        <div class="Caixa_de_login">
+            <h1 class="Titulo">{marginália}</h1>
+            <p class="subtitulo">Junte-se à nossa comunidade literária</p>
+            <div class="formulario">
+                <form>
+                    
+                    <div class="input">
+                        <input type="text" placeholder="  Nome completo:">
+                    </div>
+                    <div class="input">
+                        <input type="email" placeholder="  Email:">
+                    </div>
+                    <div class="input">
+                        <input type="password" placeholder="  Senha:">
+                    </div>
+
+                    <div class="input">
+                      <input type="tel" placeholder="   Telefone:">
+                    </div>
+
+
+                    <div class="input">
+                        <input type="text" placeholder="   Endereço completo:">
+                    </div>
+                    <div class="input">
+                       <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="   Data de nascimento:">
+                    </div>
+                    <button type="submit" class="Botão_de_login">Cadastrar</button>
+                </form>
+                   <p class="login">Já tem uma conta? <a href="#">Faça login</a></p>
+            </div>
+        </div>
+
+                <div class="imagem1">
+                 <img  class="img1" src="../assets/livraria.jpg" alt="">
+                </div>
+                
+                <div class="imagem2">
+                 <img class="img2"  src="../assets/livros.jpg" alt="">
+                </div>
+               
 </body>
 </html>

@@ -1,12 +1,11 @@
 /* Área de pagamentos */
 
-body {
+.areacad {
   background-color: #f7e8cc;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
 
 main {
   flex: 1;
@@ -23,13 +22,13 @@ main h1 {
 .produto {
   display: flex;
   background-color: #e8eaee;
-  padding: 60px 30px; /* aumentou o topo e base */
+  padding: 60px 30px;
   max-width: 800px;
   margin: 0 auto;
   gap: 30px;
   align-items: center;
   border-radius: 10px;
-  font-family: 'Copperplate Gothic Bold';
+  font-family: 'Copperplate Gothic';
 }
 
 .produto img {
@@ -39,10 +38,11 @@ main h1 {
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
+
 .titulo-livro {
   color: #0d4a2b;
   font-size: 1.3rem;
-  font-family: 'Copperplate Gothic Bold';
+  font-family: 'Copperplate Gothic';
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.5;
@@ -69,4 +69,236 @@ button{
 }
 button h4{
   padding: 6px;
+  font-family: 'Copperplate Gothic';
 }
+
+
+/* Área de login */      
+
+.arealog{
+    background-color: #115B35;
+}
+
+.Caixa_de_login{
+    border: #1E1E1E 2px solid;
+    background-color: #E8DDCB;
+    height: 550px;
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    border: #D9D9D9 2px solid;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.Titulo{
+   color: #1E1E1E;
+    text-align: center;
+     font-size: 35px;
+     padding-top: 9%;
+}
+
+.subtitulo{
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 4%;
+   
+}
+
+.Botão_de_login{
+    background-color: #6A7A49;
+    color: #D9D9D9;
+    border: #6A7A49;
+}
+
+form{
+   margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+
+input{
+    height: 35px;
+    font-family: 'Neue Haas';
+    width: 205px;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 8%;
+    border: #1E1E1E 1px solid;
+    background-color: #D9D9D9;
+    padding-left: -90%;
+    margin: 10px 0;
+    padding: 0 10px;
+    margin-top: 15%;
+
+}
+
+.Botão_de_login{
+    background-color: #6A7A49;
+    border-radius: 200px;
+    height: 48px;
+    width:205px;
+    border: #1E1E1E 1px solid;
+    margin-top: 5%;
+    
+   
+}
+
+/* Área de Cadastro */
+
+@font-face {
+  font-family: 'Neue Haas';
+  src: url('/assets/NEUEHAASGROTDISP-55ROMAN-TRIAL.OTF');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.areacad{
+  background-color: #115B35;
+}
+
+.Caixa_de_login{
+border: #1E1E1E 2px solid;
+background-color: #E8DDCB;
+height: 550px;
+width: 430px;
+margin-top: 3%;
+margin-left: 23%; 
+border-radius: 10px;
+border: #D9D9D9 2px solid;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.Titulo{
+ color: #1E1E1E;
+  text-align: center;
+  font-family: 'PP Mondwest';
+  font-size: 35px;
+  padding-top: 9%;
+}
+
+.subtitulo{
+  color: #1E1E1E;
+  font-family: 'PP Mondwest';
+  text-align: center;
+  font-size: 20px;
+  padding-top: 3%;
+ 
+}
+
+.Botão_de_login{
+  background-color: #6A7A49;
+  color: #D9D9D9;
+  border: #6A7A49;
+  
+}
+
+form{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  height: 35px;
+  width: 205px;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 5%;
+  border: #1E1E1E 1px solid;
+  background-color: #D9D9D9;
+  padding-left: -90%;
+  margin: 10px 0;
+  padding: 0 10px;
+  margin-top: 0.5%;
+  font-family: 'Neue Haas';
+
+}
+
+.Botão_de_login{
+  background-color: #6A7A49;
+  border-radius: 200px;
+  height: 45px;
+  width:205px;
+  border: #1E1E1E 1px solid;
+  margin-top: 3%;
+  font-family: 'PP Mondwest';
+  font-size: larger;
+  
+}
+
+.img1{
+  height: 345px;
+  width: 275px;
+  border-radius: 16px;
+  padding: 5px;
+  margin-top: 0.5px;
+  
+}
+
+.img2{
+  height: 280px;
+  width: 188px;
+  transform: rotate(270deg);
+  border-radius: 16px;
+  padding: 3%;
+  margin-top: -18%;
+  margin-left: 16%;
+}
+
+.imagem1{
+  height: 350px;
+  width: 280px;
+  background-color: #E8DDCB;
+  border:  solid 2px #D9D9D9;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  gap: 15px;
+  margin-left: 56%;
+  margin-top: -40.5%;
+     
+}
+
+.imagem2{
+  margin: 3%;
+  height: 185px;
+  width: 280px;
+  background-color: #E8DDCB;
+  border:  solid 2px #D9D9D9;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-left: 56%;
+  margin-top: 1%;
+     
+}
+
+
+.login {
+margin-top: 8px;
+font-size: 0.95em;
+color: #1E1E1E;
+margin-left: 28%;
+font-family: 'PP Mondwest'
+}
+
+.login a {
+color: #87A152; 
+text-decoration: none;
+font-weight: bold;
+}
+
+
+
