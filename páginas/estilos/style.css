@@ -157,13 +157,6 @@ input{
   src: url('/assets/NEUEHAASGROTDISP-55ROMAN-TRIAL.OTF');
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-}
-
 .areacad{
   background-color: #115B35;
 }
@@ -300,5 +293,89 @@ text-decoration: none;
 font-weight: bold;
 }
 
+/*area de livros*/
 
+    #corpo {
+      font-family: serif;
+      background-color: #f3e7d5;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .main-content {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .titulo-barra {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .titulo-barra h1 {
+      font-family: serif;
+      font-size: 1.8rem;
+      color: #000000;
+    }
+
+    .pesquisa input {
+      padding: 5px 10px;
+      border-radius: 10px;
+      border: 1px solid #999;
+      font-size: 1rem;
+    }
+
+    .categorias {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      padding-left: 36%;
+    }
+
+    .categorias button {
+      background-color: #1b4d3e;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 20px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .categorias button:hover {
+      background-color: #14503f;
+    }
+
+    .livros-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .livros-grid img {
+      height: 220px;
+      width: auto;
+      object-fit: cover;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .livros-grid img:hover {
+      transform: scale(1.03);
+    }
+
+    @media (min-width: 768px) {
+      .livros-grid img {
+        width: 160px;
+      }
+    }
 
