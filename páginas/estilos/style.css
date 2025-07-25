@@ -10,6 +10,7 @@
   }
 
 /* Área de pagamentos */
+
  #areapag {
   font-family: 'PP Mondwest';
   background-color: #f3e5c0;
@@ -152,14 +153,9 @@ main {
             --box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         }
 
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
 
-        }
-
-        body{
+        #corpo
+        {
             background-color: #115B35;
         }
 
@@ -349,7 +345,7 @@ main {
             transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
         }
 
-        body {
+        .dark-theme {
             background-color: var(--bg-color);
         }
 
@@ -496,7 +492,7 @@ main {
 
 
          @media (max-width: 1024px) {
-            body {
+            .dark-theme {
                 flex-direction: column;
                 padding-top: 80px;
             }
