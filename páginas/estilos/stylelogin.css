@@ -95,7 +95,7 @@
             font-family: 'Neue Haas';
             src: url(/assets/NEUEHAASGROTDISP-55ROMAN-TRIAL.OTF);
             }
-            
+
           input{
               height: 35px;
               width: 205px;
@@ -135,6 +135,7 @@
               font-weight: bold;
               height: 80px;
               width: 80px;
+              font-family: 'PP Mondwest';
               border-radius: 50%;
           }
   
