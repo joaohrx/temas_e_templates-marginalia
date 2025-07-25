@@ -12,6 +12,22 @@
     --box-shadow: rgba(255, 255, 255, 0.16) 0px 3px 6px, rgba(255, 255, 255, 0.23) 0px 3px 6px;
 }
 
+.voltar {
+    color: #E8DDCB;
+    font-family: 'PP Neuebit', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    word-spacing: 3px;
+    left: 30px;
+    transition: opacity 0.2s ease;
+  }
+  
+  .voltar:hover {
+    opacity: 0.7;
+  }
+
 
 body.light-theme {
     --bg-color: #115B35;
@@ -83,6 +99,11 @@ body.light-theme {
     align-items: center;
 }
 
+@font-face {
+    font-family: 'Neue Haas';
+    src: url(/assets/NEUEHAASGROTDISP-55ROMAN-TRIAL.OTF);
+    }
+
 .inputs {
     height: 35px;
     width: 205px;
@@ -94,6 +115,7 @@ body.light-theme {
     padding-left: -90%;
     margin: 10px 0;
     padding: 0 10px;
+    font-family: 'Neue Haas';
     margin-top: 0.5%;
     color: var(--text-color);
 }
