@@ -1,0 +1,94 @@
+#areapag {
+    font-family: 'PP Mondwest';
+    background-color: #f3e5c0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    padding: 40px 20px;
+    flex: 1;
+  }
+  
+  .titulo-compra {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 27px;
+    font-family: Georgia, serif;
+    color: #000000;
+  }
+  
+  .compra-container {
+    background-color: #e8ebef;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .livro-img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .detalhes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+  }
+  
+  .detalhes h2 {
+    font-size: 25px;
+    color: #114d2d;
+    margin-bottom:30px;
+  }
+  
+  .preco {
+    background-color: #4c663d;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .preco span {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: normal;
+  }
+  
+  .botao {
+    background-color: #4c663d;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  @media (max-width: 600px) {
+    .compra-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .detalhes {
+      align-items: center;
+      text-align: center;
+    }
+  }
