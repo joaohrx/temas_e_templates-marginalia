@@ -381,17 +381,17 @@ font-weight: bold;
       gap: 15px;
       flex-wrap: wrap;
       margin-bottom: 20px;
-      padding-left: 36%;
+      padding-left: 32%;
     }
 
     .categorias button {
       background-color: #115B35;
       color: white;
       font-family: 'PP Mondwest';
-      padding: 8px 15px;
+      padding: 8px 29px;
       border: none;
       border-radius: 20px;
-      font-size: 0.95rem;
+      font-size: 20px;
       cursor: pointer;
       transition: background 0.3s;
     }
@@ -405,7 +405,7 @@ font-weight: bold;
       flex-wrap: wrap;
       justify-content: center;
       gap: 25px;
-      max-width: 960px;
+      max-width: 800px;
       margin: 0 auto;
     }
 
