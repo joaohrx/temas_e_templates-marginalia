@@ -1,7 +1,17 @@
-/* Área de pagamentos */
+/* Landing Page */
+.nuvens {
+  padding: 40px;
+} 
 
-body {
-  font-family: serif;
+#nuv
+  {
+    height: 50px;
+    width: 60px;
+  }
+
+/* Área de pagamentos */
+ #areapag {
+  font-family: 'PP Mondwest';
   background-color: #f3e5c0;
   display: flex;
   flex-direction: column;
@@ -104,6 +114,22 @@ main {
     background-color: #115B35;
 }
 
+.voltar {
+  color: #E8DDCB;
+  font-family: 'PP Neuebit', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  top: 30px;
+  word-spacing: 3px;
+  left: 30px;
+  transition: opacity 0.2s ease;
+}
+
+.voltar:hover {
+  opacity: 0.7;
+}
+
 .Caixa_de_login{
     border: #1E1E1E 2px solid;
     background-color: #E8DDCB;
@@ -143,9 +169,6 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-
-    
 }
 
 input{
@@ -321,7 +344,7 @@ font-weight: bold;
 /*area de livros*/
 
     #corpo {
-      font-family: serif;
+      font-family: 'PP Mondwest';
       background-color: #f3e7d5;
       display: flex;
       flex-direction: column;
@@ -341,7 +364,7 @@ font-weight: bold;
     }
 
     .titulo-barra h1 {
-      font-family: serif;
+      font-family: 'PP Mondwest';
       font-size: 1.8rem;
       color: #000000;
     }
@@ -362,8 +385,9 @@ font-weight: bold;
     }
 
     .categorias button {
-      background-color: #1b4d3e;
+      background-color: #115B35;
       color: white;
+      font-family: 'PP Mondwest';
       padding: 8px 15px;
       border: none;
       border-radius: 20px;
@@ -373,7 +397,7 @@ font-weight: bold;
     }
 
     .categorias button:hover {
-      background-color: #14503f;
+      background-color: #115B35;
     }
 
     .livros-grid {
