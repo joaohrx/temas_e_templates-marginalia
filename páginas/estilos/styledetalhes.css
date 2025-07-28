@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Mondwest';
+    src: url('fonts/ppmondwest-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mondwest', serif;
+  }
+  
+  body {
+    background-color: #E8DDCB;
+    font-family: 'Mondwest', serif;
+    color: #1B1717;
+  }
+  
+  header {
+    background-color: #1B4D3E;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  header h1 {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 28px;
+  }
+  nav {
+    float: right;
+  }
+  nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  .top-bar {
+    font-family: 'Mondwest', serif;
+  }
+  .pagina {
+    font-size: 32px;
+    font-style: normal;
+    font-family: 'Mondwest', serif;
+    padding: 20px 0;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .livro {
+    width: 65%;
+  }
+  .livro-box {
+    display: flex;
+    gap: 20px;
+  }
+  .capa {
+    width: 200px;
+    height: auto;
+  }
+  .info h2 {
+    color: #2e452c;
+    margin-bottom: 10px;
+  }
+  .autor {
+    font-size: 14px;
+    color: #555;
+  }
+  .preco {
+    font-size: 24px;
+    color: #2e452c;
+    margin: 10px 0;
+  }
+  .descricao {
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  .comprar {
+    background-color: #6A7A49;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .carrinho {
+    background-color: #6A7A49;
+    color: #fff;
+    border: 1px solid #999;
+    padding: 8px 8px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .sidebar {
+    width: 30%;
+    background-color: #E8DDCB;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100%;
+    border-left: 10px solid #4A5D23;
+  }
+  .sidebar h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .recomendacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .livro-recomendado img {
+    width: 100px;
+    height: auto;
+  }
+  .livro-recomendado p {
+    font-size: 14px;
+  }
+  footer {
+    background-color: #1B4D3E;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    font-size: 12px;
+    margin-top: 30px;
+  }
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 15px;
+    }
+    .sidebar {
+      width: 100%;
+    }
+    .livro-box {
+      flex-direction: column;
+      align-items: center;
+    }
+    .sidebar {
+      border-left: none;
+      border-top: 5px solid #4A5D23;
+      margin-top: 20px;
+    }
+    .capa {
+      width: 150px;
+    }
+    header, nav, .pagina {
+      text-align: center;
+    }
+    nav {
+      float: none;
+      margin-top: 10px;
+    }
+    nav a {
+      display: inline-block;
+      margin: 10px;
+    }
+  
+  
+  }

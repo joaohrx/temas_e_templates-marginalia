@@ -1,31 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Livraria Marginalia</title>
+  <link rel="stylesheet" href="/páginas/estilos/styledetalhes.css">
 </head>
 <body>
-    <header>
-        <a id="link_landing" href="landing_page.html">
-          <img src="../assets/Logo.png" alt="Logo">
-        </a>
-        <nav>
-          <a href="area_login.html">Login</a>
-          <a href="area_livros.html">Área de Livros</a>
-          <a href="clube_do_livro.html">Clube do Livro</a>
-          <a href="sobre_nos.html">Sobre nós</a>
-        </nav>
-      </header>
-      <main>
 
-      </main>
+  
+  <header>
+    <div class="top-bar">
+      <h1>[livraria marginalia]</h1>
+      <nav>
+        <a href="#">Login</a>
+        <a href="#">Área de Livros</a>
+        <a href="#">Clube do Livro</a>
+        <a href="#">Sobre nós</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main>
+    <div class="container">
       
-      <footer>
-        <div>42 rua lamartine – bairro quiferno, quixeramobim, ce</div>
-        <div>marginalia@gmail.com</div>
-        <div>© livraria marginália</div>
-      </footer>
-    
+      
+      <section class="livro">
+        <p class="pagina">{Página do Livro}</p>
+        <div class="livro-box">
+          <img src="../assets/livro-casas-estranhas.jpg.png" alt="Capa do Livro" class="capa">
+          <div class="info">
+            <h2>Casas estranhas: Casas estranhas Vol. 1</h2>
+            <p class="autor">UKETSU (autor) <br> JEFERSON JOSÉ TEIXEIRA (tradutor)</p>
+            <p class="preco">R$40,92</p>
+            <p class="descricao">
+              Em um bairro residencial tranquilo do Tóquio, uma casa
+              completamente normal, onde pessoas normais moram, 
+              se revela um pesadelo absoluto para quem a visita. 
+              Um terror arquitetônico, um enigma físico e psicológico.
+              Uketusu nos oferece uma nova forma de horror: 
+              o terror do incompreensível, do absurdo e do 
+              inescapável que se esconde nas dobras da vida cotidiana.
+              Aclamado no Japão, o autor é uma das grandes promessas 
+              do horror moderno.
+            </p>
+            <button class="comprar">COMPRAR</button>
+            <button class="carrinho">🛒 </button>
+
+          </div>
+        </div>
+      </section>
+
+     
+      <aside class="sidebar">
+        <h3>CLIENTES QUE COMPRARAM ESTE ITEM TAMBÉM COMPRARAM:</h3>
+        <div class="recomendacoes">
+          <div class="livro-recomendado">
+            <img src="../assets/image 12.png" alt="Livro 1">
+            <p>Casas Estranhas 2</p>
+            <p>R$ 40,50</p>
+          </div>
+          <div class="livro-recomendado">
+            <img src="../assets/image 11.png" alt="Livro 2">
+            <p>Imagens Estranhas</p>
+            <p>R$ 40,50</p>
+          </div>
+          <div class="livro-recomendado">
+            <img src="../assets/image 13.png" alt="Livro 3">
+            <p>Radio</p>
+            <p> R$40,90</p>
+          </div>
+          
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+
+  <footer>
+    <p>42 rua lamartine - bairro quieterno, quixeranobim, ce</p>
+    <p>marginalia@gmail.com</p>
+    <p>© livraria marginalia</p>
+  </footer>
+
 </body>
 </html>
