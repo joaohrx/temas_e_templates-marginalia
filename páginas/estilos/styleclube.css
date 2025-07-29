@@ -18,7 +18,6 @@
     flex-direction: column;
     font-size: 20px;
     margin-bottom: 20px;
-    margin-left: 10px;
     color: #000;
 }
 
@@ -49,17 +48,29 @@
     background-color: #115B35;
     color: #fff;
     font-family: 'PP Neuebit';
-    font-size: 20px; /* ajuste para preencher proporcionalmente à altura */
+    font-size: 20px;
     border: none;
     border-radius: 24px; /* metade da altura para borda bem arredondada */
     cursor: pointer;
     text-align: center;
     line-height: 38px; /* centraliza o texto verticalmente */
     text-decoration: none;
+    margin-right: 65px;
+    margin-top: 20px;
     transition: background-color 0.3s ease;
     display: inline-block;
 }
 
-.botao-entrar:hover {
-    background-color: #083a21;
+.botao-entrar:active {
+    transform: scale(0.95);
+}
+
+.botao-entrar.clicado {
+    background-color: #5E6238;
+    width: 50px;
+    height: 50px;
+    margin-right: 100px;
+    border-radius: 100%;
+    line-height: 60px;
+    padding: 0;
 }
