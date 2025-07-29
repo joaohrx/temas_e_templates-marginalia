@@ -1,4 +1,12 @@
-/* Área de login */      
+@font-face {
+    font-family: 'PP Mondwest';
+    src: url(/assets/PPMONDWEST-REGULAR.OTF);
+  }
+  
+  @font-face {
+    font-family: 'PP Neuebit';
+    src: url(/assets/PPNEUEBIT-BOLD.OTF);
+  }
 
 .voltar {
     color: #E8DDCB;

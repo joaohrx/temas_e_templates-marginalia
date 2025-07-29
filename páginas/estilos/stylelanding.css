@@ -1,6 +1,17 @@
+@font-face {
+  font-family: 'PP Mondwest';
+  src: url(/assets/PPMONDWEST-REGULAR.OTF);
+}
+
+@font-face {
+  font-family: 'PP Neuebit';
+  src: url(/assets/PPNEUEBIT-BOLD.OTF);
+}
+
 main {
   flex: 1;
   overflow: hidden;
+  
 }
 
 .secao-principal {
@@ -13,6 +24,7 @@ main {
 
 .secao-nuvens {
   background-color: #5e6238;
+  
 }
 
 .conteudo-texto {

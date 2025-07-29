@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'PP Mondwest';
+    src: url(/assets/PPMONDWEST-REGULAR.OTF);
+  }
+  
+  @font-face {
+    font-family: 'PP Neuebit';
+    src: url(/assets/PPNEUEBIT-BOLD.OTF);
+  }
+
 :root {
         
     --bg-color: #115B35;
