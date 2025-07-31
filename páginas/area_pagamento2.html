@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compras - Livraria Marginalia</title>
+  <link rel="stylesheet" href="estilos/base.css">
+  <link rel="stylesheet" href="estilos/stylepagamentos.css">
+</head>
+
+<body id="areapag">
+  <header>
+    <a id="link_landing" href="landing_page.html">
+      <img src="../assets/Logo.png" alt="Logo">
+    </a>
+    <nav>
+      <a class="cabeca" href="area_login.html">Login</a>
+      <a class="cabeca" href="area_livros.html">Área de Livros</a>
+      <a class="cabeca" href="clube_do_livro.html">Clube do Livro</a>
+      <a class="cabeca" href="sobre_nos.html">Sobre nós</a>
+    </nav>
+  </header>
+
+  <div class="titulo-compra">{Compras}</div>
+
+  <main>
+    <div class="compra-container">
+      <img src="../assets/andresa 1.png" alt="Capa do Livro" class="livro-img">
+
+      <div class="detalhes">
+        <h2>Antes do Baile Verde</h2>
+        <div class="preco">
+          <h3>Valor: R$50,92</h3>
+          <span>frete grátis</span>
+        </div>
+        <button class="botao" onclick="realizarCompra()">Confirmar Pagamento!</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>42 rua lamartine - bairro quiferno, quixeramobim, ce</p>
+    <p>marginalia@gmail.com</p>
+    <p>© livraria marginalia</p>
+  </footer>
+
+  <script>
+    function realizarCompra() {
+      alert("Compra realizada com sucesso!");
+      setTimeout(() => {
+        window.location.href = "area_livros.html";
+      }, 1000);
+    }
+  </script>
+</body>
+</html>
