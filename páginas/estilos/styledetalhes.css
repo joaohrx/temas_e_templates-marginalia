@@ -90,6 +90,9 @@
     margin-left: 20px;
     text-decoration: none;
   }
+  a{
+    text-decoration: none;
+  }
   .top-bar {
     font-family: 'Mondwest', serif;
   }
