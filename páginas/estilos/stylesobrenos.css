@@ -8,47 +8,19 @@
     src: url(/assets/PPNEUEBIT-BOLD.OTF);
   }
 
+
     body {
-      font-family: Georgia, serif;
-      background: #fff8ee;
-      color: #1c2b1d;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      font-family: 'PP Mondwest', serif;
+      background: #E8DDCB;
       
     }
-
-    header {
-      width: 100%;
-      background-color: #005c30;
-      color: white;
-      padding: 10px 20px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
-    header h1 {
-      font-size: 1.5em;
-    }
-
-    nav {
-      display: flex;
-      gap: 15px;
-      flex-wrap: wrap;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
+    
     .container {
       max-width: 1000px;
       display: flex;
       flex-direction: column;
+      color: #1c2b1d;
+      align-items: left;
       gap: 30px;
       padding: 20px;
     }
@@ -128,16 +100,6 @@
       margin-top: 30px;
       font-family: 'PP Mondwest'; 
       font-size: 20px;
-    }
-
-    footer {
-      width: 100%;
-      background-color: #005c30;
-      color: white;
-      text-align: center;
-      padding: 10px 20px;
-      font-size: 0.9em;
-      margin-top: 125px;
     }
 
     @media (max-width: 600px) {
