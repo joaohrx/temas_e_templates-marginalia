@@ -84,9 +84,48 @@
       font-family: 'PP Mondwest';
       font-size: 18px;
       background: #e8ddcb;
+      position: relative; /* necessário para tooltip */
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
       z-index: 2;
     }
     
+    .circle:hover {
+      background: #005c30;
+      color: #e8ddcb;
+    }
+    
+    /* tooltip com o texto */
+    .circle::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      bottom: 70px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #005c30;
+      color: #e8ddcb;
+      font-size: 14px;
+      padding: 6px 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      opacity: 0;
+      white-space: nowrap;
+      pointer-events: none;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    
+    .event:nth-child(even) .circle::after {
+      bottom: auto;
+      top: 70px;
+    }
+    
+    .circle:hover::after {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-5px);
+    }
+       
     /* linha dos circulos */
     .event::after {
       content: "";
@@ -147,13 +186,39 @@
     }
 
     blockquote {
-      font-style: italic;
+      position: relative;
       color: #1c2b1d;
-      border-left: 5px solid #005c30;
-      padding-left: 15px;
-      margin-top: 30px;
-      font-family: 'PP Mondwest'; 
-      font-size: 20px;
+      font-family: 'PP Mondwest';
+      font-size: 22px;
+      margin: 30px auto;
+      padding: 20px 60px;
+      display: inline-block;
+      max-width: 70%;
+      text-align: left;
+    }
+
+    
+    /* aspas */
+    blockquote::before,
+    blockquote::after {
+      font-family: 'PP Mondwest';
+      font-size: 98px; /* reduzido e proporcional */
+      color: #005c30;
+      position: absolute;
+    }
+    
+    blockquote::before {
+      content: "“";
+      left: 40px;
+      top: 65%;
+      transform: translate(-60%, -50%);
+    }
+    
+    blockquote::after {
+      content: "”";
+      right: 40px;
+      top: 65%;
+      transform: translate(60%, -50%);
     }
 
     @media (max-width: 600px) {
