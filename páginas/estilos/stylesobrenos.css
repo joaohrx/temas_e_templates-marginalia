@@ -27,7 +27,8 @@
 
     .intro {
       text-align: left;
-      font-size: 1.1em;
+      max-width: 700px;
+      font-size: 1.5em;
       line-height: 1.6;
       font-family: 'PP Mondwest';    
   }
@@ -36,60 +37,113 @@
     }
 
     .timeline {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .timeline-line {
-      height: 5px;
-      background: linear-gradient(to right, #005c30, #ccc);
+      position: relative;
       width: 100%;
       max-width: 700px;
-      margin: 30px 0;
-    }
+      margin: 90px auto;
 
+    }
+    
+    .timeline-line {
+      height: 22px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background: linear-gradient(to right, #005c30, #d9d9d9);
+      width: 100%;
+      position: relative;
+      z-index: 1;
+    }
+    
     .events {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      gap: 20px;
-      font-family: 'PP Mondwest'; 
+      justify-content: space-between;
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
     }
-
+    
     .event {
+      position: relative;
       display: flex;
-      flex-direction: column;
       align-items: center;
-      gap: 5px;
+      flex-direction: column;
     }
-
+    
     .circle {
-      width: 70px;
-      height: 70px;
+      width: 60px;
+      height: 60px;
       border-radius: 50%;
-      border: 2px solid #005c30;
+      border: 3px solid #005c30;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-weight: bold;
       color: #005c30;
-      font-family: 'PP Mondwest'; 
+      font-family: 'PP Mondwest';
+      font-size: 18px;
+      background: #e8ddcb;
+      z-index: 2;
     }
-
+    
+    /* linha dos circulos */
+    .event::after {
+      content: "";
+      width: 2px;
+      height: 60px;
+      background: #005c30;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    .event:nth-child(odd) {
+      flex-direction: column;
+      transform: translateY(-50px); /* sobe ímpares */
+    }
+    
+    .event:nth-child(odd)::after {
+      top: auto;
+      bottom: -40px;
+    }
+    
+    /* Pares abaixo da linha */
+    .event:nth-child(even) {
+      flex-direction: column-reverse;
+      transform: translateY(60px);
+    }
+    
+    .event:nth-child(even)::after {
+      top: -10px;
+      bottom: auto;
+    }
+    
     .metrics {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
+      gap: 30px;
       flex-wrap: wrap;
-      gap: 20px;
-      margin-top: 20px;
+      align-content: center;
+      margin-top: 10px;
       font-family: 'PP Mondwest'; 
-      font-size: 26px;
+      color: #005c30;
     }
 
     .metric {
       text-align: center;
-      font-size: 1em;
+      align-items: center;
+      font-family: 'PP Mondwest';
+      color: #005c30;
+    }
+    
+    .metric .numero {
+      font-size: 54px; 
+    }
+    
+    .metric p {
+      font-size: 18px;
+      margin: 0;
     }
 
     blockquote {

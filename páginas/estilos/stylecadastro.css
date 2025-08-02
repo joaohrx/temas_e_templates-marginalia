@@ -186,14 +186,14 @@ body.light-theme {
     font-size: 0.85em;
     color: var(--text-color); 
     margin-left: 12%;
-    font-family: "pp mondwest";
+    font-family: "PP Mondwest";
 }
 
 .login a {
     color: var(--link-color); 
     text-decoration: none;
     font-weight: bold;
-    font-family: "pp mondwest";
+    font-family: "PP Mondwest";
 }
 
 .TROCA_DE_TEMA {
