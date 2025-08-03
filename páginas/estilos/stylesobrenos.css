@@ -6,6 +6,7 @@
   @font-face {
     font-family: 'PP Neuebit';
     src: url(/assets/PPNEUEBIT-BOLD.OTF);
+    
   }
 
 
@@ -28,12 +29,19 @@
     .intro {
       text-align: left;
       max-width: 700px;
+      margin-top: -15px;
       font-size: 1.5em;
+      margin-left: 15px;
       line-height: 1.6;
       font-family: 'PP Mondwest';    
   }
     .intro p{
       font-size: 20px;
+    }
+
+    .intro h2 {
+      font-weight: normal;
+      font-size: 40px;
     }
 
     .timeline {
