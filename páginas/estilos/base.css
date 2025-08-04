@@ -17,6 +17,7 @@
   body {
     background-color: #E8DDCB;
     color: #f0f0f0;
+    
   }
   
   .cabeca {
@@ -78,9 +79,15 @@
     align-items: center;
     font-family: 'PP Mondwest';
     max-height: 60px;
+    width: 100%;
   }
 
-
+  
+  main {
+    flex: 1;
+    min-height: calc(100vh - 60px);
+  }
+  
 @media (max-width: 768px) {
   header {
       padding: 2rem;
