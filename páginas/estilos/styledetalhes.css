@@ -91,18 +91,18 @@
     height: auto;
   }
   .info h2 {
-    color: #2e452c;
+    color: #115B35;
     margin-bottom: 10px;
     font-family: 'PP copper';
   }
   .autor {
     font-size: 14px;
-    color: #555;
+    color: #6A7A49;
     font-family: 'PP copper';
   }
   .preco {
     font-size: 30px;
-    color: #2e452c;
+    color: #115B35;
     margin: 10px 0;
     font-family: 'PP copper';
   }
@@ -140,7 +140,7 @@
     justify-content: center;
     text-align: center;
     min-height: 100%;
-    border-left: 10px solid #4A5D23;
+    border-left: 10px solid #115B35;
     color: black;
     font-family: 'PP copper';
   }

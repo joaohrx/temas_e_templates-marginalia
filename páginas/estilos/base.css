@@ -137,7 +137,16 @@ body.modo-escuro .sidebar {
 body.modo-escuro .descricao{
   color: #E8DDCB;
 }
+body.modo-escuro .pagina{
+ color: #F2F2F2;
 
+}
+body.modo-escuro .comprar{
+ background-color: #115B35;
+ }
+ body.modo-escuro .carrinho{
+  background-color: #115B35;
+  }
 #toggle-darkmode {
   background: none;
   border: none;
