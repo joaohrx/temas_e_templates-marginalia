@@ -20,9 +20,6 @@ body {
   color: #f0f0f0;
 
 }
-
-
-
 .cabeca {
   color: #f0f0f0;
   text-decoration: none;
@@ -62,25 +59,6 @@ header {
   justify-content: space-between;
   align-items: center;
   font-family: 'PP Neuebit', sans-serif;
-  max-height: 60px;
-}
-
-header img {
-  height: 28px;
-}
-
-header nav {
-  display: flex;
-  align-items: center;
-}
-
-footer {
-  background-color: #115B35;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'PP Mondwest';
   max-height: 60px;
 }
 
@@ -193,6 +171,4 @@ p {
     grid-template-columns: 1fr;
     
   }
-
-
 }
