@@ -150,38 +150,42 @@ body.modo-escuro .compra-container{
 background-color: #6A7A49;
     }
 body.modo-escuro .preco{
-color: #FFFFFF;
+color: #F2F2F2;
       }
 body.modo-escuro .botao{
 background-color: #115B35;
-color: #FFFFFF;
+color: #F2F2F2;
 }
 body.modo-escuro .detalhess{
-color: #FFFFFF;
+color: #F2F2F2;
   }
 body.modo-escuro .botao{
-color: #FFFFFF;
+color: #F2F2F2;
     }
 body.modo-escuro .areapag{
 background-color: #1E1E1E;
    }
 body.modo-escuro .titulo{
-color: #FFFFFF;
+color: #F2F2F2;
        }    
 body.modo-escuro .citação{
-color: #FFFFFF;
+color: #F2F2F2;
            }  
 body.modo-escuro .livrodomês h1{
-color: #FFFFFF;
+color: #F2F2F2;
    }  
 body.modo-escuro .livrodomês h2{
-    color: #FFFFFF;
+    color: #F2F2F2;
        }  
 body.modo-escuro  .subtitulo h2 {
-  color: #FFFFFF;
+  color: #F2F2F2;
 }
 body.modo-escuro  .intro{
-  color: #FFFFFF;
+  color: #F2F2F2;
+}
+
+body.modo-escuro blockquote {
+  color: #F2F2F2;
 }
 
 #toggle-darkmode {
