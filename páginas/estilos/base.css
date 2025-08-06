@@ -143,9 +143,47 @@ body.modo-escuro .pagina{
 body.modo-escuro .comprar{
  background-color: #115B35;
  }
- body.modo-escuro .carrinho{
+body.modo-escuro .carrinho{
   background-color: #115B35;
   }
+body.modo-escuro .compra-container{
+background-color: #6A7A49;
+    }
+body.modo-escuro .preco{
+color: #FFFFFF;
+      }
+body.modo-escuro .botao{
+background-color: #115B35;
+color: #FFFFFF;
+}
+body.modo-escuro .detalhess{
+color: #FFFFFF;
+  }
+body.modo-escuro .botao{
+color: #FFFFFF;
+    }
+body.modo-escuro .areapag{
+background-color: #1E1E1E;
+   }
+body.modo-escuro .titulo{
+color: #FFFFFF;
+       }    
+body.modo-escuro .citação{
+color: #FFFFFF;
+           }  
+body.modo-escuro .livrodomês h1{
+color: #FFFFFF;
+   }  
+body.modo-escuro .livrodomês h2{
+    color: #FFFFFF;
+       }  
+body.modo-escuro  .subtitulo h2 {
+  color: #FFFFFF;
+}
+body.modo-escuro  .intro{
+  color: #FFFFFF;
+}
+
 #toggle-darkmode {
   background: none;
   border: none;
