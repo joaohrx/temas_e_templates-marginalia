@@ -139,6 +139,7 @@
   margin:  auto;
   padding: 20px;
   text-align: center;
+ 
 }
 
 .lancamentos h1 {
@@ -159,7 +160,6 @@
 .livros img {
   width: 100%;
   height: auto;
-  border: 1px solid #ccc;
 }
 
 .botao {
