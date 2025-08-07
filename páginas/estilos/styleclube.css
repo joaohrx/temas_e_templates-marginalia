@@ -59,10 +59,10 @@
     font-family: 'PP Neuebit';
     font-size: 22px;
     border: none;
-    border-radius: 24px; /* metade da altura para borda bem arredondada */
+    border-radius: 24px;
     cursor: pointer;
     text-align: center;
-    line-height: 45px; /* centraliza o texto verticalmente */
+    line-height: 45px;
     text-decoration: none;
     margin-right: 65px;
     margin-top: 20px;
@@ -132,7 +132,7 @@
     position: relative;
     color: #1c2b1d;
     font-family: 'PP Mondwest';
-    font-size: 20px;
+    font-size: 21px;
     line-height: 1.6;
     max-width: 320px;
     padding: 20px 40px;
