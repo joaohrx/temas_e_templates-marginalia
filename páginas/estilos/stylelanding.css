@@ -91,7 +91,7 @@ main {
   overflow: hidden;
 }
 
-/* Texto central com underline animado */
+/* texto do preloader */
 .preloader-text {
   font-family: 'PP Mondwest';
   font-size: 42px;
@@ -124,6 +124,11 @@ main {
   font-family: 'PP Mondwest';
   transition: opacity 0.8s ease-in 1s;
   }
+
+#solelua {
+  width: 22px;
+  height: 22px;
+}
 
 #preloader.loaded .footnotes {
   opacity: 1;
