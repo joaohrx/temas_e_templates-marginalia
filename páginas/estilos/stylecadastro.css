@@ -8,18 +8,38 @@
     src: url(/assets/PPNEUEBIT-BOLD.OTF);
   }
 
+  @font-face {
+    font-family: 'Neue Haas';
+    src: url(/assets/NEUEHAASGROTDISP-55ROMAN-TRIAL.OTF);
+    }
+
+
 :root {
         
     --bg-color: #115B35;
-    --box-bg-color: #005D4A;
+    --box-bg-color: #E8DDCB;
     --box-border-color: #D9D9D9;
-    --text-color: #D9D9D9;
+    --text-color: #1E1E1E;
     --input-bg-color: #D9D9D9;
-    --input-border-color: #D9D9D9;
+    --input-border-color: #000000;
     --button-bg-color: #5A6A39;
     --button-text-color: #D9D9D9;
-    --link-color: #A0C57A;
-    --box-shadow: rgba(255, 255, 255, 0.16) 0px 3px 6px, rgba(255, 255, 255, 0.23) 0px 3px 6px;
+    --link-color: #406b15;
+    --box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+body.light-theme {
+    --bg-color: #115B35;
+    --box-bg-color: #E8DDCB;
+    --box-border-color: #D9D9D9;
+    --text-color: #1E1E1E;
+    --input-bg-color: #D9D9D9;
+    --input-border-color: #1E1E1E;
+    --button-bg-color: #6A7A49;
+    --button-text-color: #D9D9D9;
+    --link-color: #87A152;
+    --box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .voltar {
@@ -39,20 +59,6 @@
   }
 
 
-body.light-theme {
-    --bg-color: #115B35;
-    --box-bg-color: #E8DDCB;
-    --box-border-color: #D9D9D9;
-    --text-color: #1E1E1E;
-    --input-bg-color: #D9D9D9;
-    --input-border-color: #1E1E1E;
-    --button-bg-color: #6A7A49;
-    --button-text-color: #D9D9D9;
-    --link-color: #87A152;
-    --box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
-
 * {
     margin: 0;
     padding: 0;
@@ -60,15 +66,15 @@ body.light-theme {
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.dark-theme {
+body {
     background-color: var(--bg-color);
 }
 
 .Caixa_de_login {
-    border: var(--input-border-color) 2px solid;
+    border: var(--input-border-color) 1px solid;
     background-color: var(--box-bg-color); 
     height: 550px;
-    margin-left: 25%;
+    margin-left: 23%;
     margin-top: 5%;
     width: 430px;
     border-radius: 10px;
@@ -84,22 +90,25 @@ body.light-theme {
     color: var(--text-color); 
     text-align: center;
     font-size: 35px;
+    font-weight: normal;
+    font-family: 'PP Mondwest';
     padding-top: 9%;
-    font-family: "pp mondwest";
 }
 
 .subtitulo {
     color: var(--text-color); 
     text-align: center;
+    font-family: 'PP Mondwest';
     font-size: 20px;
     padding-top: 3%;
-    font-family: "pp mondwest";
 }
 
 .Botão_de_login {
     background-color: var(--button-bg-color);
     color: var(--button-text-color); 
     border: var(--button-bg-color); 
+    font-family: 'PP Mondwest';
+    font-size: 22px;
 }
 
 .form {
@@ -109,26 +118,21 @@ body.light-theme {
     align-items: center;
 }
 
-@font-face {
-    font-family: 'Neue Haas';
-    src: url(/assets/NEUEHAASGROTDISP-55ROMAN-TRIAL.OTF);
-    }
-
 .inputs {
     height: 35px;
     width: 205px;
+    font-family: 'Neue Haas';
     border-radius: 10px;
     padding: 2%;
     margin: 5%;
-    border: var(--input-border-color) 1px solid; 
+    border: var(--input-border-color) 0.5px solid; 
     background-color: var(--input-bg-color); 
     padding-left: -90%;
     margin: 10px 0;
     padding: 0 10px;
-    font-family: 'Neue Haas';
     margin-top: 0.5%;
-    color: var(--text-color);
-    
+    color: #000000; ;
+    outline: none;
 }
 
 .Botão_de_login {
@@ -136,7 +140,7 @@ body.light-theme {
     border-radius: 200px;
     height: 45px;
     width: 205px;
-    border: var(--input-border-color) 1px solid; 
+    border: var(--input-border-color) 0.5px solid; 
     margin-top: 3%;
 }
 
@@ -166,8 +170,8 @@ body.light-theme {
     border-radius: 16px;
     box-shadow: var(--box-shadow); 
     gap: 15px;
-    margin-left: 55%;
-    margin-top: -36%;
+    margin-left: 56.5%;
+    margin-top: -40.5%;
 }
 
 .imagem2 {
@@ -178,7 +182,7 @@ body.light-theme {
     background-color: var(--box-bg-color); 
     border-radius: 16px;
     box-shadow: var(--box-shadow); 
-    margin-left: 55%;
+    margin-left: 56.5%;
     margin-top: 1%;
 }
 
@@ -187,75 +191,40 @@ body.light-theme {
     font-size: 0.85em;
     color: var(--text-color); 
     margin-left: 12%;
-    font-family: "PP Mondwest";
+    font-family: 'PP Mondwest';
 }
 
 .login a {
     color: var(--link-color); 
     text-decoration: none;
-    font-weight: bold;
-    font-family: "PP Mondwest";
+    font-weight: normal;
 }
 
- @media (max-width: 1024px) {
-    .dark-theme {
-        flex-direction: column;
-        padding-top: 80px;
-    }
-
-    .main-container {
-        flex-direction: column;
-    }
-
-    .Caixa_de_login {
-        margin-top: 0;
-    }
-
-    .image-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-        margin-top: 20px;
-    }
-
-    .imagem1, .imagem2 {
-        margin: 0;
-    }
-
-    .img2 {
-        transform: rotate(0deg);
-    }
-}
-
-@media (max-width: 992px) {
-    .main-container {
-        flex-direction: column;
-        gap: 40px;
-    }
-
-    .Caixa_de_login {
-        width: 100%;
-        max-width: 500px;
-    }
-
-    .image-container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .imagem1, .imagem2 {
-        width: 200px;
-        height: auto;
-    }
+.TROCA_DE_TEMA {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--button-bg-color); 
+    color: var(--button-text-color);
+    border: 1px solid var(--button-text-color); 
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: normal;
+    display: none;
 }
 
 
-@media (max-width: 768px) {
+
+
+ @media  (max-width: 786px) {
     .Caixa_de_login {
         max-width: 95%;
+        margin-left: 23%;
+        margin-top: 3%;
+        
+
+        
     }
     .Titulo {
         font-size: 28px;
@@ -275,12 +244,172 @@ body.light-theme {
     margin-top: 8px;
     font-size: 0.75em;
     color: var(--text-color); 
-    margin-left: 36%;
+    margin-left: 15%;
 }
 
 .login a {
     color: var(--link-color); 
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
+    
 }
+
+.TROCA_DE_TEMA{
+    margin-top: 65%;
+    margin-right: 20%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: none;
+}
+
+   
+    
+
+    
+}
+
+@media (max-width: 400px) {
+    .Caixa_de_login {
+        max-width: 85%;
+        margin-left: 5.5%;
+        margin-top: 20%;
+    }
+    .Titulo {
+        font-size: 28px;
+    }
+    .subtitulo {
+        font-size: 18px;
+    }
+    .Botão_de_login {
+        width: 180px;
+        height: 42px;
+    }
+   
+
+     .login {
+    margin-top: 8px;
+    font-size: 0.68em;
+    color: var(--text-color); 
+    margin-left: 22%;
+}
+
+.login a {
+    color: var(--link-color); 
+    text-decoration: none;
+    font-weight: normal;
+}
+
+ .TROCA_DE_TEMA{
+    margin-top: 130%;
+   margin-right: -1%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: none;
+}
+
+}
+
+
+@media (min-width: 1600px) and (max-width:1920px) {
+     .Caixa_de_login {
+        max-width: 95%;
+        margin-left: 23%;
+        margin-top: 3%;
+        
+
+        
+    }
+    .Titulo {
+        font-size: 28px;
+    }
+    .subtitulo {
+        font-size: 18px;
+    }
+    .Botão_de_login {
+        width: 180px;
+        height: 42px;
+    }
+  
+
+     .login {
+    margin-top: 8px;
+    font-size: 0.75em;
+    color: var(--text-color); 
+    margin-left: 15%;
+}
+
+.login a {
+    color: var(--link-color); 
+    text-decoration: none;
+    font-weight: normal;
+    
+}
+
+.TROCA_DE_TEMA{
+    margin-top: 65%;
+    margin-right: 20%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: none;
+}
+
+
+
+  .image-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+      
+    }
+
+     .imagem2 {
+        margin-top: -20%;
+    
+    }
+
+    .imagem1{
+        margin-top: -34.5%;
+        margin-left: 51%;
+        
+    }
+
+    .img2 {
+        transform: rotate(270deg);
+    }
+
+     .img1 {
+    height: 345px;
+    width: 275px;
+    border-radius: 16px;
+    padding: 5px;
+    margin-top: 0.5px;
+}
+
+
+.imagem2 {
+    margin: 3%;
+    height: 185px;
+    width: 280px;
+    border: solid 2px var(--box-border-color); 
+    background-color: var(--box-bg-color); 
+    border-radius: 16px;
+    box-shadow: var(--box-shadow); 
+    margin-left: 51%;
+    margin-top: 1%;
+}
+
+
+   
+    
+
+    
+
+
+
+
+
 }
