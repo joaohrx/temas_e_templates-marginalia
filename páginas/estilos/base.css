@@ -187,6 +187,22 @@ body.modo-escuro  .intro{
 body.modo-escuro blockquote {
   color: #F2F2F2;
 }
+body.modo-escuro .lancamentos {
+  background-color: #1E1E1E;
+  color: #F2F2F2;
+}
+body.modo-escuro .lancamentos h1 {
+  color: #F2F2F2;
+}
+body.modo-escuro .artistas h2 {
+  color: #F2F2F2;
+}
+body.modo-escuro .artistas p {
+  color: #F2F2F2;
+}
+body.modo-escuro .main-content {
+ background-color: #1E1E1E;
+}
 
 #toggle-darkmode {
   background: none;
