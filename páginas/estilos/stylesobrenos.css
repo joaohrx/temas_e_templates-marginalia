@@ -239,7 +239,7 @@
       width: 100vw;      /* ocupa toda a largura da viewport */
       margin-left: calc(-50vw + 50%); /* centraliza removendo padding/container */
       display: block;
-      margin-right: -525px;
+      margin-right: -55%;
       align-items: center;
     }
     
