@@ -64,7 +64,7 @@ header {
 
 .fundinho {
   height: 100vh;
-  background-image: url("/assets/fundo_conta.jpg");
+  background-image: url("/assets/background-perfil.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
