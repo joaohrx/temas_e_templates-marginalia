@@ -246,18 +246,18 @@
     .carta {
       background: #E8DDCB;
       border-radius: 8px;
-      padding: 30px 40px;
+      padding: 20px 30px;
       max-width: 900px;
       width: 100%;
       position: relative;
       font-family: 'PP Mondwest';
     }
     
-    .carta h2 {
+    .carta #escreva {
       font-size: 30px;
       font-weight: normal;
       margin-bottom: 90px;
-      margin-top: -20px;
+      margin-top: -15px;
       margin-left: 280px;    
       color: #1c2b1d;
       text-decoration: underline;
@@ -269,49 +269,16 @@
       position: absolute;
       top: 10px;
       left: 40px;
-      width: 110px;
+      width: 115px;
     }
     
     .conteudo-carta {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      margin-bottom: 20px;
-    }
-    
-    .info {
-      text-align: left;
-      line-height: 1.6;
-      font-size: 18px;
-      color: #1c2b1d;
-    }
-    
-    .selo {
-      width: 70px;
-      margin-top: -100px;
-      margin-right: -100px;
-    }
-    
-    .de {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      gap: 10px;
-      margin-top: 10px;
-      font-size: 18px;
-    }
-    
-    .de input {
-      border: none;
-      border-bottom: 2px solid #115B35;
-      background: transparent;
-      outline: none;
-      font-family: 'PP Mondwest';
-      font-size: 16px;
-      width: 250px;
-    }
-    
+      }
 
+  
 
     @media (max-width: 600px) {
       header {
