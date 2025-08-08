@@ -184,6 +184,10 @@ body.modo-escuro  .intro{
   color: #F2F2F2;
 }
 
+body.modo-escuro .titulo-barra h1 {
+  color: #F2F2F2;
+}
+
 body.modo-escuro blockquote {
   color: #F2F2F2;
 }
@@ -202,6 +206,23 @@ body.modo-escuro .artistas p {
 }
 body.modo-escuro .main-content {
  background-color: #1E1E1E;
+}
+
+body.modo-escuro .carta {
+  background-color: #1E1E1E;
+  color: #F2F2F2;
+}
+
+body.modo-escuro .carta h2 {
+  color: #F2F2F2;
+}
+
+body.modo-escuro .info {
+  color: #F2F2F2;
+}
+
+body.modo-escuro .de input {
+  color: #F2F2F2;
 }
 
 #toggle-darkmode {
