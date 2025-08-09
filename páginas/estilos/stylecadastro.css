@@ -142,7 +142,36 @@ body {
     width: 205px;
     border: var(--input-border-color) 0.5px solid; 
     margin-top: 3%;
+    display: inline-block;
+    transform: translateY(0);
+    transition: all 0.2s ease;
 }
+
+
+
+
+.Botão_de_login:hover {
+  background-color: var(--button-bg-color); 
+  transform: translateY(-1px);
+  box-shadow: 
+    0 5px 0 var(--button-bg-color),
+    0 8px 12px rgba(17,91,53,0.3);
+}
+
+
+
+.botao-resenha:hover:active {
+  transform: translateY(0.3px);
+  box-shadow: 
+    0 2px 0 #0e4228,
+    0 3px 6px rgba(17,91,53,0.3);
+}
+
+
+
+
+
+
 
 .img1 {
     height: 345px;
@@ -213,6 +242,16 @@ body {
     font-weight: normal;
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -315,8 +354,8 @@ body {
 @media (min-width: 1600px) and (max-width:1920px) {
      .Caixa_de_login {
         max-width: 95%;
-        margin-left: 23%;
-        margin-top: 3%;
+        margin-left: 29%;
+        margin-top: 8%;
         
 
         
@@ -372,8 +411,8 @@ body {
     }
 
     .imagem1{
-        margin-top: -34.5%;
-        margin-left: 51%;
+        margin-top: -29%;
+        margin-left: 53%;
         
     }
 
@@ -398,7 +437,7 @@ body {
     background-color: var(--box-bg-color); 
     border-radius: 16px;
     box-shadow: var(--box-shadow); 
-    margin-left: 51%;
+    margin-left: 53%;
     margin-top: 1%;
 }
 

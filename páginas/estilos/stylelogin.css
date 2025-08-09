@@ -8,6 +8,12 @@
     src: url(/assets/PPNEUEBIT-BOLD.OTF);
   }
 
+
+   @font-face {
+            font-family: 'Neue Haas';
+            src: url(/assets/NEUEHAASGROTDISP-55ROMAN-TRIAL.OTF);
+            }
+
 .voltar {
     color: #E8DDCB;
     font-family: 'PP Neuebit', sans-serif;
@@ -26,158 +32,208 @@
   
   
   :root {
-              --bg-color: #115B35;
-              --box-bg-color: #005D4A;
-              --box-border-color: #D9D9D9;
-              --text-color: #D9D9D9;
-              --input-bg-color: #D9D9D9;
-              --input-border-color: #D9D9D9;
-              --button-bg-color: #5A6A39;
-              --button-text-color: #D9D9D9;
-              --box-shadow: rgba(255, 255, 255, 0.16) 0px 3px 6px, rgba(255, 255, 255, 0.23) 0px 3px 6px;
-          }
-  
-      
-          body.light-theme {
-              --bg-color: #115B35;
-              --box-bg-color: #E8DDCB;
-              --box-border-color: #D9D9D9;
-              --text-color: #1E1E1E;
-              --input-bg-color: #D9D9D9;
-              --input-border-color: #1E1E1E;
-              --button-bg-color: #6A7A49;
-              --button-text-color: #D9D9D9;
-              --box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          }
-  
-  
-          #corpo
-          {
-              background-color: #115B35;
-          }
-  
-          .Caixa_de_login{
-              background-color: var(--box-bg-color);
-              height: 550px;
-              width: 530px;
-              margin: 0 auto;
-              margin-top: 5%;
-              border-radius: 10px;
-              border: var(--box-border-color) solid;
-              box-shadow: var(--box-shadow);
-              
-  
-  
-          }
-  
-          .Titulo{
-             color: var(--text-color);
-              text-align: center;
-               font-size: 35px;
-               padding-top: 9%;
-               font-weight: normal;
-               font-family: "pp mondwest";
-          }
-  
-          .subtitulo{
-              color: var(--text-color);
-              text-align: center;
-              font-size: 20px;
-              padding-top: 4%;
-              font-family: "pp mondwest";
-          }
-  
-          .Botão_de_login{
-              background-color: var(--button-bg-color);
-              color: var(--button-text-color);
-              border: var(--input-border-color);
-          }
-  
-          form{
-             margin-top: 30px;
-              display: flex;
-              flex-direction: column;
-              align-items: center;}
+            --bg-color: #115B35;
+            --box-bg-color: #E8DDCB;
+            --box-border-color: #D9D9D9;
+            --text-color: #1E1E1E;
+            --input-bg-color: #D9D9D9;
+            --input-border-color: #1E1E1E;
+            --button-bg-color: #6A7A49;
+            --button-text-color: #D9D9D9;
+            --box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+
+        body.light-theme {
+            --bg-color: #115B35;
+            --box-bg-color: #E8DDCB;
+            --box-border-color: #D9D9D9;
+            --text-color: #1E1E1E;
+            --input-bg-color: #D9D9D9;
+            --input-border-color: #1E1E1E;
+            --button-bg-color: #6A7A49;
+            --button-text-color: #D9D9D9;
+            --box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #115B35;
+        }
+
+        .Caixa_de_login {
+            background-color: var(--box-bg-color);
+            height: 550px;
+            width: 530px;
+            margin: 0 auto;
+            margin-top: 5%;
+            border-radius: 10px;
+            border: var(--box-border-color) solid;
+            box-shadow: var(--box-shadow);
+        }
+
+        .Titulo {
+            color: var(--text-color);
+            text-align: center;
+            font-size: 35px;
+            padding-top: 9%;
+             font-family: 'PP Mondwest';
+            
+        }
+
+        .subtitulo {
+            color: var(--text-color);
+            text-align: center;
+            font-size: 20px;
+            padding-top: 4%;
+            font-family: 'PP Mondwest';
+            
+        }
+
+        .Botão_de_login {
+            background-color: var(--button-bg-color);
+            color: var(--button-text-color);
+            border: var(--input-border-color);
+            cursor: pointer;
+        }
+
+        form {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input {
+            height: 40px;
+            width: 215px;
+            border-radius: 8px;
+            padding: 2%;
+            margin: 8%;
+            border: var(--input-border-color) 1px solid;
+            background-color: var(--input-bg-color);
+            padding-left: -90%;
+            margin: 10px 0;
+            padding: 0 10px;
+            margin-top: 15%;
+            outline: none;
+        }
+
+        .Botão_de_login {
+            background-color: var(--button-bg-color);
+            border-radius: 200px;
+            height: 48px;
+            width: 205px;
+            border: var(--input-border-color) 1px solid;
+            margin-top: 5%;
+            display: inline-block;
+            transform: translateY(0);
+            transition: all 0.2s ease;
+        }
 
 
-            @font-face {
-            font-family: 'Neue Haas';
-            src: url(/assets/NEUEHAASGROTDISP-55ROMAN-TRIAL.OTF);
+
+
+
+
+             .Botão_de_login:hover {
+              background-color: var(--button-bg-color); 
+            transform: translateY(-1px);
+           box-shadow: 
+                 0 5px 0 var(--button-bg-color),
+            0 8px 12px rgba(17,91,53,0.3);
+        }
+
+
+
+.Botão_de_login:hover:active {
+  transform: translateY(0.3px);
+  box-shadow: 
+    0 2px 0 #0e4228,
+    0 3px 6px rgba(17,91,53,0.3);
+}
+
+
+
+
+        
+
+        .TROCA_DE_TEMA {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: var(--button-bg-color);
+            color: var(--button-text-color);
+            border: 1px solid var(--button-text-color);
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .Caixa_de_login {
+                padding: 30px 15px;
             }
 
-          input{
-              height: 35px;
-              width: 205px;
-              border-radius: 8px;
-              font-family: 'Neue Haas';
-              padding: 2%;
-              margin: 8%;
-              border: var(--input-border-color) 1px solid;
-              background-color: var(--input-bg-color);
-              padding-left: -90%;
-              margin: 10px 0;
-              padding: 0 10px;
-              margin-top: 15%;
-  
-          }
-  
-          .Botão_de_login{
-              background-color: var(--button-bg-color);
-              border-radius: 200px;
-              height: 48px;
-              width:205px;
-              border: var(--input-border-color) 1px solid;
-              margin-top: 5%;
-             
-          }
-  
-  
-          @media (max-width: 768px) {
-              .Caixa_de_login {
-                  padding: 30px 15px;
-              }
-  
-              .Titulo {
-                  font-size: 30px;
-              }
-  
-              .subtitulo {
-                  font-size: 18px;
-              }
-  
-              input, .Botão_de_login {
-                  max-width: 280px;
-              }
-  
-              .TROCA_DE_TEMA {
-                  height: 60px;
-                  width: 60px;
-                  font-size: 12px;
-                  top: 15px;
-                  right: 15px;
-              }
-          }
-  
-          @media (max-width: 480px) {
-              .Caixa_de_login {
-                  max-width: 95%;
-                  padding: 25px 10px;
-              }
-  
-              .Titulo {
-                  font-size: 26px;
-              }
-  
-              .subtitulo {
-                  font-size: 16px;
-              }
-  
-              input, .Botão_de_login {
-                  max-width: 250px;
-                  height: 40px;
-                  font-size: 15px;
-              }
-  
-              .Botão_de_login {
-                  height: 50px;
-              }}
+            .Titulo {
+                font-size: 30px;
+            }
+
+            .subtitulo {
+                font-size: 18px;
+            }
+
+            input, .Botão_de_login {
+                max-width: 280px;
+            }
+
+            .TROCA_DE_TEMA {
+                height: 60px;
+                width: 60px;
+                font-size: 12px;
+                top: 15px;
+                right: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .Caixa_de_login {
+                max-width: 95%;
+                padding: 25px 10px;
+                margin-top: 18%;
+            }
+
+            .Titulo {
+                font-size: 26px;
+            }
+
+            .subtitulo {
+                font-size: 16px;
+            }
+
+            input, .Botão_de_login {
+                max-width: 250px;
+                height: 40px;
+                font-size: 15px;
+            }
+
+            .Botão_de_login {
+                height: 50px;
+            }
+
+            .TROCA_DE_TEMA {
+                height: 60px;
+                width: 60px;
+                font-size: 10px;
+                margin-top: 142%;
+            }
+        }
