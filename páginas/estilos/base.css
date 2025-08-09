@@ -214,15 +214,7 @@ body.modo-escuro .carta {
 }
 
 body.modo-escuro .carta h2 {
-  color: #F2F2F2;
-}
-
-body.modo-escuro .info {
-  color: #F2F2F2;
-}
-
-body.modo-escuro .de input {
-  color: #F2F2F2;
+  color: #F2F2F2 !important;
 }
 
 #toggle-darkmode {

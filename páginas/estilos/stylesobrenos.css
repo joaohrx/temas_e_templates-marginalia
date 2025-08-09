@@ -236,8 +236,8 @@
     }
     
     .divisor {
-      width: 100vw;      /* ocupa toda a largura da viewport */
-      margin-left: calc(-50vw + 50%); /* centraliza removendo padding/container */
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
       display: block;
       margin-right: -55%;
       align-items: center;
@@ -245,20 +245,20 @@
     
     .carta {
       background: #E8DDCB;
-      border-radius: 8px;
-      padding: 20px 30px;
-      max-width: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 15px;
       width: 100%;
       position: relative;
       font-family: 'PP Mondwest';
     }
     
     .carta #escreva {
-      font-size: 30px;
+      font-size: 36px;
       font-weight: normal;
-      margin-bottom: 90px;
-      margin-top: -15px;
-      margin-left: 280px;    
+      margin-bottom: 15px;
+      margin-left: 270px;
       color: #1c2b1d;
       text-decoration: underline;
       text-decoration-color: #115B35; /* cor do underline */
@@ -266,20 +266,60 @@
     }
     
     .carimbo {
-      position: absolute;
-      top: 10px;
-      left: 40px;
+      align-items: center;
+      flex-direction: column;
       width: 115px;
+      margin-left: 270px;
     }
-    
-    .conteudo-carta {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
+
+
+      .info-contato {
+        font-size: 18px;
+        color: #1c2b1d;
+        margin-bottom: 20px;
+        margin-left: 270px;
+      }
+      
+      
+      .bullet {
+        margin: 0 8px;
+        color: #115B35;
       }
 
-  
+      .icones-redes {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 15px;
+        margin-left: 27.5%;
+      }
+      
+      
+      .icones-redes .icone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 46px;
+        border: 2px solid #115B35;
+        border-radius: 50%;
+        font-size: 16px;
+        color: #115B35;
+        text-decoration: none;
+        transition: background 0.3s;
+      }
 
+      .icones-redes .icone img {
+        width: 22px;
+        height: 32px;
+      }
+      
+      .icones-redes .icone:hover {
+        background: #115B35;
+        color: #f3ecdf;
+      }
+      
+    
     @media (max-width: 600px) {
       header {
         flex-direction: column;
