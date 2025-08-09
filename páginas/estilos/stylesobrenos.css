@@ -91,7 +91,7 @@
       font-family: 'PP Mondwest';
       font-size: 18px;
       background: #e8ddcb;
-      position: relative; /* necessário para tooltip */
+      position: relative;
       cursor: pointer;
       transition: background-color 0.3s ease, color 0.3s ease;
       z-index: 2;
@@ -154,7 +154,6 @@
       bottom: -40px;
     }
     
-    /* Pares abaixo da linha */
     .event:nth-child(even) {
       flex-direction: column-reverse;
       transform: translateY(60px);
@@ -196,7 +195,7 @@
       position: relative;
       color: #1c2b1d;
       font-family: 'PP Mondwest';
-      font-size: 22px;
+      font-size: 24px;
       margin: 30px auto;
       padding: 20px 60px;
       display: inline-block;
@@ -261,7 +260,7 @@
       margin-left: 270px;
       color: #1c2b1d;
       text-decoration: underline;
-      text-decoration-color: #115B35; /* cor do underline */
+      text-decoration-color: #115B35;
       text-underline-offset: 6px
     }
     
@@ -299,24 +298,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 44px;
-        height: 46px;
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
         border: 2px solid #115B35;
         border-radius: 50%;
-        font-size: 16px;
-        color: #115B35;
-        text-decoration: none;
-        transition: background 0.3s;
+      }
+      
+      .icones-redes .icone img {
+        width: 28px;
+        height: auto;
       }
 
-      .icones-redes .icone img {
-        width: 22px;
-        height: 32px;
+      .icones-redes .icone #tuiter {
+        width: 36px;
+        height: auto;
       }
       
       .icones-redes .icone:hover {
         background: #115B35;
         color: #f3ecdf;
+        transition: background-color 0.3s ease, color 0.3s ease;
       }
       
     

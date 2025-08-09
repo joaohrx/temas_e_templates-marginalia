@@ -217,6 +217,14 @@ body.modo-escuro .carta h2 {
   color: #F2F2F2 !important;
 }
 
+body.modo-escuro .info-contato {
+  color: #F2F2F2;
+}
+
+body.modo-escuro .icone {
+  background-color: #E8DDCB;
+}
+
 #toggle-darkmode {
   background: none;
   border: none;

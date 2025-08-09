@@ -82,6 +82,7 @@
             font-size: 35px;
             padding-top: 9%;
              font-family: 'PP Mondwest';
+             font-weight: normal;
             
         }
 
@@ -99,6 +100,9 @@
             color: var(--button-text-color);
             border: var(--input-border-color);
             cursor: pointer;
+            font-family: 'PP Mondwest';
+            font-size: 20px;
+            align-items: center;
         }
 
         form {
@@ -118,6 +122,7 @@
             background-color: var(--input-bg-color);
             padding-left: -90%;
             margin: 10px 0;
+            font-family: 'Neue Haas';
             padding: 0 10px;
             margin-top: 15%;
             outline: none;
@@ -135,32 +140,21 @@
             transition: all 0.2s ease;
         }
 
-
-
-
-
-
-             .Botão_de_login:hover {
-              background-color: var(--button-bg-color); 
+        .Botão_de_login:hover {
+            background-color: var(--button-bg-color); 
             transform: translateY(-1px);
-           box-shadow: 
-                 0 5px 0 var(--button-bg-color),
+            box-shadow: 
+            0 5px 0 #5b6b3c,
             0 8px 12px rgba(17,91,53,0.3);
         }
 
 
-
-.Botão_de_login:hover:active {
-  transform: translateY(0.3px);
-  box-shadow: 
-    0 2px 0 #0e4228,
-    0 3px 6px rgba(17,91,53,0.3);
+        .Botão_de_login:hover:active {
+        transform: translateY(0.3px);
+        box-shadow: 
+        0 2px 0 #0e4228,
+        0 3px 6px rgba(17,91,53,0.3);
 }
-
-
-
-
-        
 
         .TROCA_DE_TEMA {
             position: absolute;
