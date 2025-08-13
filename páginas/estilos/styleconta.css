@@ -17,14 +17,12 @@
 
 
 .fundinho {
+  min-height: 100vh;
   height: 100vh;
   background-image: url("/assets/background-perfil.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: Arial, sans-serif;
-  
-
 }
 .perfil img {
   width: 200px;
@@ -40,32 +38,37 @@
   margin-left: 60px;
   margin-top: 60px;
   gap: 10px;
-
+  width: 200px;
+  
 }
 
 .perfil,
 h2 {
   font-family: 'PP Mondwest';
-  
-  
+  font-weight: normal;
+  font-size: 20px;
 }
 
 .perfil,
 p {
   font-family: 'PP Neuebit';
+  font-weight: normal;
+  
+  
 }
 
 .livros {
   text-align: center;
-  margin-top: -5rem;
+  margin-top: 0;
   padding-top: 0;
 
 }
 
 .livros h2 {
-  margin-top: 0.3rem;
+  margin-top: 0rem;
   margin-bottom: 0.8rem;
-
+  font-weight: normal;
+  font-size: 30px;
 
 }
 
@@ -74,13 +77,14 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   justify-content: flex-start;
+  
 }
 
 .livros-grid img {
-  width: 100px;
-  height: 150px;
+  width: 150px;
+  height: 200px;
   object-fit: cover;
   border-radius: 5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -92,13 +96,19 @@ p {
 }
 
 .container {
-  width: 640px;
-  margin: 0 auto;
+  width: 700px;
+  margin: auto;
   text-align: left;
+  margin-top: -15rem;
 }
 
 @media (max-width: 768px) {
-
+.fundinho {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
 
   .perfil {
     display: flex;
@@ -109,7 +119,10 @@ p {
     gap: 1rem;
     margin-bottom: 6rem;
   }
+.livros{
+  flex-direction: column;
 
+}
   .perfil img {
     width: 100px;
     height: 100px;
