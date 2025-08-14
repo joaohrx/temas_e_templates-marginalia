@@ -242,68 +242,56 @@
       align-items: center;
     }
     
-    .carta {
-      background: #E8DDCB;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 15px;
-      width: 100%;
-      position: relative;
-      font-family: 'PP Mondwest';
-    }
-    
-    .carta #escreva {
-      font-size: 36px;
-      font-weight: normal;
-      margin-bottom: 15px;
-      margin-left: 270px;
-      color: #1c2b1d;
-      text-decoration: underline;
-      text-decoration-color: #115B35;
-      text-underline-offset: 6px
-    }
-    
-    .carimbo {
-      align-items: center;
-      flex-direction: column;
-      width: 115px;
-      margin-left: 270px;
-    }
+.carta {
+  background: #E8DDCB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+  position: relative;
+  margin-left: 270px;
+  font-family: 'PP Mondwest';
+}
 
+.carta #escreva {
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  color: #1c2b1d;
+  text-decoration: underline;
+  text-decoration-color: #115B35;
+  text-underline-offset: 6px;
+  text-align: center;
+}
 
-      .info-contato {
-        font-size: 18px;
-        color: #1c2b1d;
-        margin-bottom: 20px;
-        margin-left: 270px;
-      }
-      
-      
-      .bullet {
-        margin: 0 8px;
-        color: #115B35;
-      }
+.carimbo {
+  width: 115px;
+}
 
-      .icones-redes {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        margin-top: 15px;
-        margin-left: 27.5%;
-      }
-      
-      
-      .icones-redes .icone {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50px;
-        height: 50px;
-        margin-top: 5px;
-        border: 2px solid #115B35;
-        border-radius: 50%;
-      }
+.info-contato {
+  font-size: 18px;
+  color: #1c2b1d;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.icones-redes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.icones-redes .icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #115B35;
+  border-radius: 50%;
+}
       
       .icones-redes .icone img {
         width: 28px;
