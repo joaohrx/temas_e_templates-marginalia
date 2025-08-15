@@ -306,7 +306,11 @@
       .icones-redes .icone:hover {
         background: #115B35;
         color: #f3ecdf;
-        transition: background-color 0.3s ease, color 0.3s ease;
+        transition: background-color 0.4s ease, color 0.4s ease;
+      }
+
+      .icones-redes .icone:hover img {
+        filter: brightness(0) invert(1);
       }
       
     
