@@ -28,12 +28,17 @@
       <img src="../assets/andresa 1.png" alt="Capa do Livro" class="livro-img">
 
       <div class="detalhes">
-        <h2>Antes do Baile Verde</h2>
+        <h2 id="titulo-livro">Antes do Baile Verde</h2>
         <div class="preco">
-          <h3>Valor: R$50,92</h3>
-          <span>frete grátis</span>
+          <h3 id="preco-livro">Valor: R$50,92</h3>
+          <span id="frete-livro">frete grátis</span>
         </div>
-        <button class="botao" onclick="realizarCompra()">Confirmar Pagamento!</button>
+        <button class="botao"
+          data-titulo="Antes do Baile Verde"
+          data-preco=" R$50,92"
+          data-frete="frete grátis">
+          Confirmar Pagamento!
+        </button>
       </div>
     </div>
   </main>

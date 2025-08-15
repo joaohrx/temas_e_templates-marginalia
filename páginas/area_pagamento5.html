@@ -28,12 +28,17 @@
       <img src="../assets/image 9.png" alt="Capa do Livro" class="livro-img">
 
       <div class="detalhes">
-        <h2>Ainda estou aqui</h2>
+        <h2 id="titulo-livro">Ainda estou aqui</h2>
         <div class="preco">
-          <h3>Valor: R$60,92</h3>
-          <span>frete grátis</span>
+          <h3 id="preco-livro">Valor: R$60,92</h3>
+          <span id="frete-livro">frete grátis</span>
         </div>
-        <button class="botao" onclick="realizarCompra()">Confirmar Pagamento!</button>
+        <button class="botao"
+          data-titulo="Ainda estou aqui"
+          data-preco=" R$60,92"
+          data-frete="frete grátis">
+          Confirmar Pagamento!
+        </button>
       </div>
     </div>
   </main>

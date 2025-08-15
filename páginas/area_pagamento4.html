@@ -29,12 +29,17 @@
       <img src="../assets/image 8.png" alt="Capa do Livro" class="livro-img">
 
       <div class="detalhes">
-        <h2>Memórias de subsolo</h2>
+        <h2 id="titulo-livro">Memórias de subsolo</h2>
         <div class="preco">
-          <h3>Valor: R$35,92</h3>
-          <span>frete grátis</span>
+          <h3 id="preco-livro">Valor: R$35,92</h3>
+          <span id="frete-livro">frete grátis</span>
         </div>
-        <button class="botao" onclick="realizarCompra()">Confirmar Pagamento!</button>
+        <button class="botao"
+          data-titulo="Memórias de subsolo"
+          data-preco=" R$35,92"
+          data-frete="frete grátis">
+          Confirmar Pagamento!
+        </button>
       </div>
     </div>
   </main>

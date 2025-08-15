@@ -25,15 +25,20 @@
 
   <main>
     <div class="compra-container">
-      <img src="../assets/image 12.png" alt="Capa do Livro" class="livro-img">
+      <img src="../assets/casas_estranhas2.png" alt="Capa do Livro" class="livro-img">
 
       <div class="detalhes">
-        <h2>Casas Estranhas: <br> Casas estranhas Vol. 2</h2>
+        <h2 id="titulo-livro">Casas Estranhas: <br> Casas estranhas Vol. 2</h2>
         <div class="preco">
-          <h3>Valor: R$40,92</h3>
-          <span>frete grátis</span>
+          <h3 id="preco-livro">Valor: R$40,92</h3>
+          <span id="frete-livro">frete grátis</span>
         </div>
-        <button class="botao" onclick="realizarCompra()">Confirmar Pagamento!</button>
+       <button class="botao"
+          data-titulo="Casas Estranhas: Casas estranhas Vol. 2"
+          data-preco=" R$40,92"
+          data-frete="frete grátis">
+          Confirmar Pagamento!
+        </button>
       </div>
     </div>
   </main>

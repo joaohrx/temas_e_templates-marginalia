@@ -25,15 +25,20 @@
 
   <main>
     <div class="compra-container">
-      <img src="../assets/image 11.png" alt="Capa do Livro" class="livro-img">
+      <img src="../assets/imagens_estranhas.jpg" alt="Capa do Livro" class="livro-img">
 
       <div class="detalhes">
-        <h2>Imagens Estranhas</h2>
+        <h2 id="titulo-livro">Imagens Estranhas</h2>
         <div class="preco">
-          <h3>Valor: R$40,92</h3>
-          <span>frete grátis</span>
+          <h3 id="preco-livro">Valor: R$40,92</h3>
+          <span id="frete-livro">frete grátis</span>
         </div>
-        <button class="botao" onclick="realizarCompra()">Confirmar Pagamento!</button>
+        <button class="botao"
+          data-titulo="Imagens Estranhas"
+          data-preco=" R$40,92"
+          data-frete="frete grátis">
+          Confirmar Pagamento!
+        </button>
       </div>
     </div>
   </main>
