@@ -10,7 +10,6 @@
 </head>
 <body>
     <a href="javascript:history.back()" class="voltar"> ← Voltar </a>
-    <button id="theme-toggle" class="TROCA_DE_TEMA">Modo Claro</button>
     <div class="main-container">
         <div class="Caixa_de_login">
             <h1 class="Titulo">{Livraria Marginália}</h1>
@@ -28,33 +27,12 @@
                         <input type="password" id="senha" placeholder="  Senha:" required>
                     </div>
                     <button type="submit" class="Botão_de_login">Login</button>
+                    <p class="novo">Novo por aqui? <a href="area_cadastro.html">Cadastre-se</a></p>
                 </form>
             </div>
         </div>
 
-        <script >
-        document.getElementById('loginForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-
-        const nome = document.getElementById('nome').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const senha = document.getElementById('senha').value.trim();
-
-        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (nome === '' || email === '' || senha === '') {
-            alert('Por favor, preencha todos os campos.');
-        } else if (!emailPattern.test(email)) {
-            alert('Por favor, insira um email válido.');
-        } else {
-            alert('Formulário enviado com sucesso!');
-            this.reset();
-            window.location.href = "conta_usuario.html";
-    }
-});
-           
-
-          
-        </script>
+        <script src="scripts/script_tela_de_login.js"></script>
     </div>
 </body>
 </html>

@@ -156,22 +156,20 @@
         0 3px 6px rgba(17,91,53,0.3);
 }
 
-        .TROCA_DE_TEMA {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background-color: var(--button-bg-color);
-            color: var(--button-text-color);
-            border: 1px solid var(--button-text-color);
-            padding: 8px 12px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-            height: 80px;
-            width: 80px;
-            border-radius: 50%;
-            display: none;
-        }
+.novo {
+    font-family: 'PP Mondwest';
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.novo a {
+    color: var(--button-bg-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.2s ease;
+}
+
 
         @media (max-width: 768px) {
             .Caixa_de_login {
@@ -190,13 +188,6 @@
                 max-width: 280px;
             }
 
-            .TROCA_DE_TEMA {
-                height: 60px;
-                width: 60px;
-                font-size: 12px;
-                top: 15px;
-                right: 15px;
-            }
         }
 
         @media (max-width: 480px) {
@@ -224,10 +215,4 @@
                 height: 50px;
             }
 
-            .TROCA_DE_TEMA {
-                height: 60px;
-                width: 60px;
-                font-size: 10px;
-                margin-top: 142%;
-            }
         }
