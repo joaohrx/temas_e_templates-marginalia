@@ -1,1 +1,10 @@
-Esse repositório se refere ao projeto do professor Romerito Campos da disciplina de Design Web, e consiste em criar um projeto de site envolvendo alternância de temas e templates. Nosso site é a Livraria Marginália.
+# Livraria Marginália
+
+Esse repositório se refere ao projeto do professor Romerito Campos da disciplina de Design Web, e consiste em criar um projeto de site envolvendo alternância de temas e templates. Nosso site é a **Livraria Marginália**.
+
+## Componentes
+- Andresa dos Santos Dantas  
+- Eduardo Silva Santos  
+- Edson Félix dos Santos
+- João Victor Rocha dos Santos
+
