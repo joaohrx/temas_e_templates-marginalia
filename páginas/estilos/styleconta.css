@@ -19,7 +19,7 @@
 .fundinho {
   min-height: 100vh;
   height: 135vh;
-  background-image: url("/assets/background-perfil.png");
+  background-image: url("../assets/background-perfil.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
